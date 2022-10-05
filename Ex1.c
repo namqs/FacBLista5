@@ -14,13 +14,8 @@ void main ()
     printf("Digite um valor inteiro: ");
     scanf("%d", &N);
 
-    for (i=0; i<N; i=i+2) //exibindo os numeros pares inferiores a N
+    for (i=0; i<=N; i=i+2) //exibindo os numeros pares inferiores a N
     {
       printf("%d ", i);
-    }
-
-    if (N%2==0)
-    {
-      printf("%d", N);
     }
 }
